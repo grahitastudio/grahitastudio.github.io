@@ -1,7 +1,703 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny Blossoms</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel=stylesheet type="text/css" href="CSS/Styles.css?v=5">
+    <link rel=stylesheet type="text/css" href="CSS/Testimonials.css?v=2">
+    <link rel=stylesheet type="text/css" href="CSS/Typewritter.css?v=1">
+    <link rel=stylesheet type="text/css" href="CSS/CustomAnimations.css?v=1">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
-<body>
-	hello world!
+
+
+<body class="container-fluid p-0">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-background">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Images/grahita-logo.png" alt=""
+                    class="navbar-brand-image navbar-brand-image-custom">
+                <span>Grahita</span></a>
+            <button class="navbar-toggler mr-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-4 mb-lg-0 navbar-brand-items-main-custom">
+                    <li class="nav-item navbar-brand-items-custom">
+                        <a class="nav-link active nav-link-custom" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item navbar-brand-items-custom">
+                        <a class="nav-link nav-link-custom" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item navbar-brand-items-custom">
+                        <a class="nav-link nav-link-custom" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="m-0 p-0 w-100 hero-background" id="home">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5 center-content-flex">
+                    <div class="col-10 col-sm-12 col-lg-6">
+                        <img src="Images/grahita-01.png" class="d-block mx-xs-auto mx-lg-auto img-fluid"
+                            alt="grahita alt" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3 typewriter text-center"><span class="m-0 p-0"
+                                data-text="WORRIED?,ANXIOUS?,STRESSED?,FEELING LOW?,TENSED?"></span></h1>
+                        <p class="lead text-center"><i>It only takes few clicks to get started...</i></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-middle center-content-flex">
+                            <a href="#contact">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Schedule A
+                                    Consultation</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="div-overalp sticky">
+            <a href="#home">
+                <button type="button" class="btn btn-outline-secondary btn-sm go-to-top-button">
+                    <i class="fas fa-chevron-circle-up go-to-top-icon"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center div-overalp">
+            <div class="triangle"></div>
+        </div>
+
+        <div class="m-0 p-0 w-100 services-background">
+            <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-4 pt-4">
+                    <h2 class="featurette-heading text-center mt-2">WE CAN HELP YOU WITH</span>
+                </div>
+            </div>
+            <div class="container px-4 py-5 mt-0 pt-0" id="icon-grid">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4 g-4 section-content-padding">
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Gifs/questionmarks.gif"
+                                        class="center-block d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
+                                        width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">Anxiety</h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "I worry a lot. "<br>
+                                        "I get anxious very easily."<br>
+                                        "I think a lot about future."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Services/SadCloudsMerged.png"
+                                        class="animated-shake center-block d-block mx-auto mb-3 " alt="grahita alt"
+                                        alt="grahita alt" width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">Depression</h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "I feel very low."<br>
+                                        "Nothing interests me anymore."<br>
+                                        "I see no point in doing anything."<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Services/SadMountainsMerged.png"
+                                        class="enter-block animation-flip d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
+                                        width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">Mood Swings</h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "I am experiencing mood swings."<br>
+                                        "My mood is not stable these days."<br>
+                                        "I get so happy at a moment and then suddenly something happens and it all goes
+                                        down."<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Gifs/scribbledrawing.gif" class="center-block d-block mx-auto mb-3 "
+                                        alt="grahita alt" alt="grahita alt" width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">Anger </h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "I am short tempered."<br>
+                                        "I don't know how to control my anger."<br>
+                                        "I often get irritated."<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-sm-1  row-cols-md-3 row-cols-lg-4 g-4 mb-5">
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Gifs/circles.gif"
+                                        class="center-block d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
+                                        width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">Stress Management</h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "I am stressed most of the times."<br>
+                                        "I feel pressured alot."<br>
+                                        "Managing my stress is a task for me."<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Gifs/Flowers.gif"
+                                        class="center-block d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
+                                        width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">Personal Growth</h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "It takes me a lot of time decide what I want."<br>
+                                        "I can't prioritize things at all and hence everything gets messed up."<br>
+                                        "I feel underconfident."<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Gifs/lgbtqa.gif"
+                                        class="center-block d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
+                                        width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">LGBTQA+</h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "I don't understand who am I. How to explore myself?"<br>
+                                        "I am scared to come out of the closet."<br>
+                                        "I get tensed thinking whether I'll ever get the 'acceptance'."<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="card services shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Services/NculearFacilityDrawAndMerged.png"
+                                        class="animated-image center-block d-block mx-auto mb-3 " alt="grahita alt"
+                                        alt="grahita alt" width="150" height="150" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center services-title">Venting Out</h4>
+                                    <p class="mt-2 text-center services-explaination-text">
+                                        "I have noone to talk to."<br>
+                                        "I would like to discuss and share few things with someone."<br>
+                                        "Nobody listens to me."<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-0 p-0 w-100 about-grahita-background" id="about">
+            <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
+                    <h2 class="featurette-heading text-center mt-2">THOUGHT BEHIND GRAHITA</span>
+                </div>
+            </div>
+            <div class="container col-xxl-8 px-4 py-5 mt-0 pt-0">
+                <div class="row flex-lg-row-reverse align-items-center g-5 section-content-padding center-content-flex">
+                    <div class="col-10 col-sm-12 col-lg-6 mx-auto">
+                        <div id="grahita-studio-gallery" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Images/Grahita-Studio-grahita-logo-16x9.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="960" height="540"
+                                        loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/Grahita-Studio-_0002_mandala-wall-1.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="960" height="540"
+                                        loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/Grahita-Studio-_0004_waiting-area-1.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="960" height="540"
+                                        loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/Grahita-Studio-_0001_waiting-area-2.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="960" height="540"
+                                        loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/Grahita-Studio-_0000_waiting-area-3.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="960" height="540"
+                                        loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/Grahita-Studio-_0003_councelling-room-1.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="960" height="540"
+                                        loading="lazy">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#grahita-studio-gallery"
+                                data-bs-slide="prev">
+                                <span class="fas fa-chevron-circle-left slider-indicators" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#grahita-studio-gallery"
+                                data-bs-slide="next">
+                                <span class="fas fa-chevron-circle-right slider-indicators" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <h3 class="fw-bold lh-1 mb-3 center-content-mobile-only">Grahita: As within, so without</h3>
+                        <p class="lead center-content-mobile-only"><i>Grahita in Sanskrit means receptor, the one who
+                                recieves, accepts.
+                                People need someone who can listen.
+                                Grahita, as a psychological assistance is committed towards being an active listener and
+                                serves the society by doing the best.
+                                Our perception, thoughts and feelings create what we see and experience. Therefore,
+                                Grahita focuses on our internal world and cultivating a positive relationship with
+                                ourselves.
+                                We believe that, the way we exercise to keep us physically fit, it is essential to train
+                                our mind as well.
+                                Grahita is a place where we not only work on the distress but also pursue personal
+                                growth and development. 
+                                Grahita offers everyone a safe space where you are welcomed, listened and
+                                understood!</i></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start center-content-mobile-only">
+                            <a href="#contact">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Schedule A
+                                    Consultation</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-0 p-0 w-100 about-aditee-background">
+            <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
+                    <h2 class="featurette-heading text-center mt-2">MEET THE FOUNDER</span>
+                </div>
+            </div>
+            <div class="container col-xxl-8 px-4 py-5 mt-0 pt-0">
+                <div class="row flex-lg-row-reverse align-items-center g-5 section-content-padding center-content-flex">
+                    <div class="col-10 col-sm-12 col-lg-6">
+                        <img src="Images/IMG_0235-1.jpg"
+                            class="d-block center-block mx-lg-auto image-responsive img-fluid" alt="grahita alt"
+                            loading="lazy">
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <h3 class="fw-bold lh-1 mb-3 center-content-mobile-only">Aditee Bhargave</h3>
+                        <p class="center-content-mobile-only"><b><i>Psychologist, Founder</i></b></p>
+                        <p class="lead center-content-mobile-only">
+                            Greetings!
+                            I am Aditee Bhargave. Having done my master's in Clinical Psychology from the University of
+                            Pune, I have been working in this field since 2019.
+                            I was always intrigued by the mind, thoughts, and human behavior. But while pursuing my
+                            bachelor's, I experienced a mental setback myself.
+                            So I decided to pursue psychology as my career to help others who are in similar situations.
+                            I am driven by the urge to make mental wellbeing services accessible to individuals. And
+                            specially to the LGBTQIA+ community with the intent to assist them in their journey to
+                            restoring their mental health, personal growth and self discovery.
+                            I believe that training our mind like we train our body to achieve the highest levels of
+                            physical fitness is crucial. It is my belief that we can achieve an optimal level of mental
+                            fitness too.
+                            I aim to normalize and de-stigmatize problems associated with mental health. All of us may
+                            need some kind of assistance at some point in time, be it regarding an issue, betterment of
+                            life or simply to vent.
+                            My happiness lies in offering each individual a safe space where they will feel welcome,
+                            heard and understood!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-0 p-0 w-100 user-reviews">
+            <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
+                    <h2 class="featurette-heading text-center mb-3 user-reviews-header">USER REVIEWS</span>
+                </div>
+            </div>
+            <section id="testim" class="testim">
+                <!--         <div class="testim-cover"> -->
+                <div class="wrap">
+
+                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                    <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li>
+                        <!--
+                                    -->
+                        <li class="dot"></li>
+
+                        <!--
+                                    -->
+                        <li class="dot"></li>
+                        <!--
+                                    -->
+                        <li class="dot"></li>
+
+                        <li class="dot"></li>
+
+                    </ul>
+                    <div id="testim-content" class="cont">
+
+                        <div class="active">
+                            <!-- <div class="img">
+                                <img src="https://lorempokemon.fakerapi.it/pokemon/200/556">
+                            </div> -->
+                            <h2>Vyro</h2>
+                            <p class="testim-paragraph">
+                                Aditee is a very warm person to talk to. absolute comfort for the client in session is a
+                                guaranteed given. the consultation she gives is very ideal, she gives the client space
+                                to feel and go through their emotions while helping them solve their way through them,
+                                it is a necessary quality in a therapist in my opinion. 100% would recommend to others
+                                willing to seek help with mental health issues, she will ensure a hopeful healing
+                                journey to anyone who is committed to their recovery goals.
+                            </p>
+                        </div>
+
+
+
+                        <div>
+                            <!-- <div class="img">
+                                <img src="https://lorempokemon.fakerapi.it/pokemon/200/1265">
+                            </div> -->
+                            <h2>Varada</h2>
+                            <p class="testim-paragraph">
+                                Aditi Bhargave is the BEST consultant you'd ever come across! She is a very good
+                                listener and a very friendly person who can comfort anyone who is in need. She
+                                understands problems very well and knows how to give the exact answers to queries.
+                                Highly recommend!
+                            </p>
+                        </div>
+
+                        <div>
+                            <!-- <div class="img">
+                                <img src="https://lorempokemon.fakerapi.it/pokemon/200/890">
+                            </div> -->
+                            <h2>Jahanbi</h2>
+                            <p class="testim-paragraph">
+                                Aditi has helped through my anxiety and trust issues. I have been able to reach out to
+                                her even at odd hours when I would have an anxiety attack. She also helped me by
+                                re-introducing me to sensorial techniques to come back to the present moment and using
+                                mindfulness in day to day issues. I have come a long way in re-establising trust in
+                                people through my sessions with her.
+                            </p>
+                        </div>
+
+                        <div>
+                            <!-- <div class="img">
+                                <img src="https://lorempokemon.fakerapi.it/pokemon/200/1234">
+                            </div> -->
+                            <h2>Kartik</h2>
+                            <p class="testim-paragraph">
+                                I had heard about Grahita from a friend. Grahita's experts have helped me In my
+                                endeavour to understand my mental and emotion issues, reduce anxiety and improve
+                                self-esteem. For someone trying to untangle the mind or looking for solace, highly
+                                recommended. 10/10
+                            </p>
+                        </div>
+
+                        <div>
+                            <!-- <div class="img">
+                                <img src="https://lorempokemon.fakerapi.it/pokemon/200/1234">
+                            </div> -->
+                            <h2>Ritwick</h2>
+                            <p class="testim-paragraph">
+                                Have had a great experience with Aditee, she's a very patient listener and a very
+                                compassionate therapist. She's trained in different schools of psychotherapy. If in
+                                doubt, give it a go, you won't regret it.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--         </div> -->
+            </section>
+
+            <!-- <div id="carouselExampleIndicators" class="carousel slide mt-0" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card services testimonials-card">
+                            <div class="card-body text-center">
+                                <div>
+                                    <img src="https://via.placeholder.com/500" class="center-block d-block mx-auto"
+                                        alt="grahita alt" alt="grahita alt" width="100" height="100" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center">Parent</h4>
+                                     <p class="mt-2 text-center services-explaination-text">Paragraph of text beneath the heading to explain the
+                                        heading.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card services testimonials-card">
+                            <div class="card-body text-center">
+                                <div>
+                                    <img src="https://via.placeholder.com/500" class="center-block d-block mx-auto"
+                                        alt="grahita alt" width="100" height="100" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center">Another Parent</h4>
+                                     <p class="mt-2 text-center services-explaination-text">Paragraph of text beneath the heading to explain the
+                                        heading.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card services testimonials-card">
+                            <div class="card-body text-center">
+                                <div>
+                                    <img src="https://via.placeholder.com/500" class="center-block d-block mx-auto"
+                                        alt="grahita alt" width="100" height="100" loading="lazy">
+                                    <h4 class="fw-bold mb-0 text-center">Another Another Parent</h4>
+                                     <p class="mt-2 text-center services-explaination-text">Paragraph of text beneath the heading to explain the
+                                        heading.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> -->
+
+        </div>
+
+        <div class="m-0 p-0 w-100 how-it-works-background">
+            <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
+                    <h2 class="featurette-heading text-center mt-2">HOW IT WORKS ?</span>
+                </div>
+            </div>
+            <div class="container px-4 py-5 mt-0 pt-0" id="icon-grid">
+                <div class="row row-cols-1 row-cols-sm-1  row-cols-md-3 row-cols-lg-4 g-4 section-content-padding">
+                    <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center">
+                        <div class="card h-100 shadow" data-aos="fade-up">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Icons/whatsapp.svg"
+                                        class="center-block d-block mx-auto mt-4 how-it-works-icons" alt="grahita alt"
+                                        alt="grahita alt" width="50" height="50" loading="lazy">
+                                    <h5 class="fw-bold mb-0 mt-4 pt-2 text-center">Message us on WhatsApp</h5>
+                                    <p class="mt-2 text-center how-it-works-paragraph">Message us on WhatsApp or any
+                                        other socail media, tell us about how we can help you.  
+                                        Your therapist will answer your questions and based on your preferences schedule your first online/in person appointment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center">
+                        <div class="card h-100 shadow" data-aos="fade-up" data-aos-duration="800">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Icons/video-solid.svg"
+                                        class="center-block d-block mx-auto mt-4 how-it-works-icons" alt="grahita alt"
+                                        alt="grahita alt" width="50" height="50" loading="lazy">
+                                    <h5 class="fw-bold mb-0 mt-4 pt-2 text-center">Attend your first online session
+                                    </h5>
+                                    <p class="mt-2 text-center how-it-works-paragraph">Your therapist will join you in a 1:1 online session where she will get to know
+                                        you and offer support/consultation to reach your goal.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center">
+                        <div class="card h-100 shadow" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="card-body">
+                                <div>
+                                    <img src="Images/Icons/couch-solid.svg"
+                                        class="center-block d-block mx-auto mt-4 how-it-works-icons" alt="grahita alt"
+                                        alt="grahita alt" width="50" height="50" loading="lazy">
+                                    <h5 class="fw-bold mb-0 mt-4  pt-2 text-center">Attend your first in person appointment</h5>
+                                    <p class="mt-2 text-center how-it-works-paragraph">You will visit Grahita where your therapist will get to know
+                                        you and offer support/consultation to reach your goal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-0 p-0 w-100 getstarted-background" id="contact">
+            <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
+                    <h2 class="featurette-heading text-center mt-2">CONTACT US</span>
+                </div>
+            </div>
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5 mt-0 pt-0">
+                <div class="row align-items-center g-lg-5 section-content-padding">
+                    <div class="col-lg-7 text-center text-lg-start align-self-middle-center">
+                        <div class="row m-0 p-0 mb-3">
+                            <div class="col">
+                                <h3 class="fw-bold lh-1 mb-3">Connect on social media</h3>
+                                <p class="col-lg-10 socials">
+
+                                    <a  onclick="LaunchWhatsapp()" class="mr-4 ml-4 social-icons">
+                                        <span><i class="fab fa-whatsapp"></i></span>
+                                    </a>
+
+                                    <a href="https://www.instagram.com/grahita_aswithinsowithout" target="_blank"
+                                        class="mr-4 ml-4 social-icons">
+                                        <span><i class="fab fa-instagram"></i></span>
+                                    </a>
+
+                                    <a href="mailto:assistance@grahita.in" target="_blank" class="mr-4 social-icons">
+                                        <span><i class="fa fa-solid fa-envelope"></i></span>
+                                    </a>
+
+                                    <a onclick="LaunchTelegram()" 
+                                        class="mr-4 ml-4 social-icons">
+                                        <span><i class="fab fa-telegram"></i></span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-10 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 shadow default-background">
+                            <div class="form-floating mb-4">
+                                <h5 class="text-center">GET STARTED ON WHATSAPP</h4>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="name" class="mb-2">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe"
+                                    autocomplete="on" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="description" class="mb-2">Description</label>
+                                <textarea class="form-control" id="description" id="description" rows="4"
+                                    placeholder="Brief description of your problem"> </textarea>
+                            </div>
+                            <button class="w-100 btn btn-lg btn-secondary" id="submit" type="submit"
+                                onclick="SubmitRequest()">Get
+                                Started</button>
+                            <hr class="my-4">
+                            <small class="text-muted">By clicking Get Started, you agree to the terms of use.</small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-4 py-5 locate-us-background">
+            <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3 pb-4">
+                    <h2 class="featurette-heading text-center">LOCATE US</span>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.9673047560223!2d73.7655163149158!3d20.009886886559123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb4fc9da9737%3A0x3593ac273a09bc5c!2sGrahita-%20A%20mental%20health%20well-being%20studio!5e0!3m2!1sen!2sin!4v1658838440398!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="w-100 m-0 p-0 footer-background text-center d-flex justify-content-center align-middle">
+            <div class="row m-0 p-0 mt-3 mb-3 d-flex justify-content-center align-middle">
+                <div class="col text-center align-middle"><small>© Copyright 2022 Grahita. All rights reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"
+        integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Scripts/Site.js"></script>
 </body>
+
 </html>

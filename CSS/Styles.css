@@ -1,0 +1,286 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+image {
+  background-color: transparent !important;
+}
+
+body {
+  color: #444d56;
+}
+
+.navbar-brand-image {
+  max-width: 25px !important;
+  max-height: 25px !important;
+}
+
+.triangle {
+  width: 60px;
+  height: 30px;
+  border-top: solid 30px #fffefc;
+  border-left: solid 30px transparent;
+  border-right: solid 30px transparent;
+}
+
+.div-overalp {
+  z-index: 9;
+  position: absolute;
+}
+
+.section-content-padding {
+  padding-bottom: 3rem !important;
+  padding-top: 2rem !important;
+}
+
+.default-background {
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #fffefc;
+  /* color: #222222; */
+}
+
+.navbar-background {
+  background-color: #fffefc !important;
+}
+
+.footer-background {
+  color: #989898;
+  background-color: #2a2a2a;
+  min-height: 60px;
+}
+
+
+.hero-background {
+  background-color: #fffefc;
+  min-height: 90vh;
+
+}
+
+.services-background {
+  /* background-color: #a9e0d0; */
+  background-color: #c3e0e9;
+  min-height: 90vh;
+}
+
+.about-grahita-background {
+  background-color: #fffefc;
+  /* min-height: 90vh; */
+}
+
+.about-aditee-background {
+  background-color: #fffefc;
+  /* min-height: 90vh; */
+}
+
+.how-it-works-background {
+  background-color: #fffefc;
+  /* min-height: 90vh; */
+}
+
+.user-reviews {
+  background-color: #1e1e1e;
+  min-height: 500px;
+}
+
+.getstarted-background {
+  background-color: #add5e1;
+  /* min-height: 90vh; */
+}
+
+.locate-us-background {
+  background-color: #fffefc;
+  /* min-height: 90vh; */
+}
+
+.user-reviews-header {
+  color: #f9f9f9;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2.5rem;
+  margin-bottom: 2.5rem;
+  z-index: 12;
+}
+
+.navbar-brand-image {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.center-content-flex {
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar-brand-image-custom {
+  margin-left: 0.5rem;
+}
+
+.navbar-brand-items-main-custom {
+  margin-right: 0.6rem;
+}
+
+.go-to-top-button {
+  background-color: #3e3e3e;
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.go-to-top-icon {
+  color: #fffefc;
+}
+
+.go-to-top-text {
+  font-size: 10px;
+  color: #f9f9f9;
+}
+
+@media (max-width: 1000px) {
+  .center-content-mobile-only {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navbar-brand-items-custom {
+    margin-left: 2.2rem;
+  }
+}
+
+.services {
+  min-height: 390px;
+  min-width: 300px;
+}
+
+@media (max-width: 1000px) {
+  .services {
+    min-width: 90vw;
+  }
+}
+
+
+.slider-indicators {
+  color: black;
+}
+
+.socials a {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #353535;
+}
+
+.socials a {
+  margin-right: 1rem;
+}
+
+.social-icons {
+  font-size: 35px;
+}
+
+/* .testimonials-card{
+  background-color: #fcf836
+} */
+
+
+.how-it-works-icons {
+  opacity: 0.73;
+}
+
+.align-self-middle-top {
+  align-self: baseline;
+  ;
+}
+
+
+@media (max-width: 1000px) {
+  .row {
+    --bs-gutter-x: 0rem !important;
+  }
+}
+
+
+.services-explaination-text {
+  font-style: italic;
+  opacity: .9;
+  font-size: .9rem;
+}
+
+
+.services-title {
+
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+
+}
+
+
+/*
+stacked images
+*/
+/* .stacked-img-background {
+  position: relative;
+  background-image: url(Images/Services/Circles-text.png);
+  background-position: center;
+  background-size: cover; } */
+
+/* .stacked-img-foreground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  display: block;
+  margin: auto; } */
+
+
+
+/*
+
+scaled images
+
+*/
+
+
+
+
+/**/
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */

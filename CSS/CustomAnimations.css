@@ -1,0 +1,58 @@
+.animated-image {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+.animated-shake {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 1.6s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+  .animation-flip
+  {
+    animation:  flip 8s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes flip {
+    0% { transform: scaleY(1); }
+    30% { transform: scaleY(1); }
+    40% { transform: scaleY(-1); }
+    60% { transform: scaleY(-1); }
+    70% { transform: scaleY(-1); }
+    100% { transform: scaleY(1); }
+  }
+
+  .animation-x-flip
+  {
+    animation : x-flip 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes x-flip {
+    100% { transform: scaleX(-1); }
+  }
